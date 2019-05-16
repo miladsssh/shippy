@@ -9,8 +9,8 @@ import (
 
 	"context"
 
+	"github.com/micro/go-micro"
 	pb "github.com/miladsssh/shippy/consignment-service/proto/consignment"
-	micro "github.com/micro/go-micro"
 )
 
 const (

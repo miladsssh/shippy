@@ -2,11 +2,10 @@ package main
 
 
 import (
-	"fmt"
-	// Import the generated protobuf code
-	pb "github.com/miladsssh/shippy/consignment-service/proto/consignment"
-	"github.com/micro/go-micro"
 	"context"
+	"fmt"
+	"github.com/micro/go-micro"
+	pb "github.com/miladsssh/shippy/consignment-service/proto/consignment"
 )
 
 type repository interface {
